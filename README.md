@@ -1,5 +1,5 @@
 🚀 Supply Chain Management Dashboard
-📌 Project Overview
+ Project Overview
 This project focuses on Supply Chain Management (SCM) Analytics, using interactive dashboards to track key performance indicators (KPIs) and optimize operations. The dashboards provide insights into sales trends, inventory management, and logistics performance using Power BI, Tableau, and Excel.
 
 📊 Key Features
@@ -18,24 +18,19 @@ Sales Data: Includes total sales, product-wise sales, and region-wise sales.
 Inventory Data: Tracks product availability and stock levels.
 Logistics Data: Analyzes shipping times and warehouse operations.
 Payment Methods Data: Evaluates sales distribution based on payment methods.
-📌 Key Insights
+ Key Insights
 State-wise sales analysis revealed Colorado as an outlier with significantly higher sales.
 Product-wise sales analysis highlighted Arts & Crafts as the top-selling category, while Mobiles had the lowest sales.
 Daily sales trend analysis showed a decline from January to April 2023, with March seeing a brief recovery.
 Optimized procurement and inventory management through real-time data insights.
-📸 Dashboard Previews
-📊 Power BI Dashboard
-📊 Tableau Dashboard
-📊 Excel Dashboard
+Dashboard Previews
+Power BI Dashboard
+Tableau Dashboard
+Excel Dashboard
 
-(Add images or GIFs of the dashboards here for visualization)
-
-🔍 SQL Queries
+SQL Queries
 This project includes SQL queries for data extraction, transformation, and analysis. Example queries:
 
-sql
-Copy
-Edit
 -- Retrieve total sales by state
 SELECT State, SUM(Sales) AS Total_Sales 
 FROM Sales_Data 
@@ -47,15 +42,7 @@ SELECT Product_Category, SUM(Sales) AS Product_Sales
 FROM Sales_Data 
 GROUP BY Product_Category 
 ORDER BY Product_Sales DESC;
-📢 How to Use
-Clone this repository:
-sh
-Copy
-Edit
-git clone https://github.com/your-username/supply-chain-dashboard.git
-Open and run the SQL scripts for database setup.
-Load the datasets into Power BI, Tableau, or Excel.
-Explore the dashboards for insights.
+
 📧 Contact
 For any queries or collaborations, feel free to reach out:
 📩 Email: akhileshtandur@gmail.com
