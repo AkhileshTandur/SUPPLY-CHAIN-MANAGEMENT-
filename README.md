@@ -9,7 +9,7 @@ Optimized supply chain processes by identifying inefficiencies in inventory and 
 Extracted and managed data from sales transactions, purchase methods, and payment methods datasets.
 Presented actionable insights to improve operational efficiency and decision-making.
 🛠️ Tools & Technologies
-Programming Languages: Python (Pandas, NumPy), SQL
+Programming Languages: Python, SQL
 Data Visualization: Power BI, Tableau, Excel
 Databases: SQL Server, MySQL
 Other Tools: PowerPoint for presentations
@@ -29,19 +29,7 @@ Tableau Dashboard
 Excel Dashboard
 
 SQL Queries
-This project includes SQL queries for data extraction, transformation, and analysis. Example queries:
-
--- Retrieve total sales by state
-SELECT State, SUM(Sales) AS Total_Sales 
-FROM Sales_Data 
-GROUP BY State 
-ORDER BY Total_Sales DESC;
-
--- Identify product-wise sales performance
-SELECT Product_Category, SUM(Sales) AS Product_Sales 
-FROM Sales_Data 
-GROUP BY Product_Category 
-ORDER BY Product_Sales DESC;
+This project includes SQL queries for data extraction, transformation, and analysis.
 
 📧 Contact
 For any queries or collaborations, feel free to reach out:
